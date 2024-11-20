@@ -2,7 +2,7 @@
 name = "b401"
 version = "0.1.0"
 description = ""
-authors = ["julio colomer <info@aiaccelera.com>"]
+authors = ["Pankti Chokshi <pankti2806@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]

@@ -27,7 +27,7 @@ for chunk in llmModel.stream(
     
 print("\n----------\n")
 
-creativeLlmModel = OpenAI(temperature=0.9)
+creativeLlmModel = OpenAI(temperature=0.1)
 
 response = llmModel.invoke(
     "Write a short 5 line poem about JFK"
@@ -40,7 +40,7 @@ print("\n----------\n")
 
 from langchain_openai import ChatOpenAI
 
-chatModel = ChatOpenAI(model="gpt-3.5-turbo-0125")
+chatModel = ChatOpenAI(model="gpt-4o-mini")
 
 messages = [
     ("system", "You are an historian expert in the Kennedy family."),
