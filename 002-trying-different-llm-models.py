@@ -5,7 +5,7 @@ _ = load_dotenv(find_dotenv())
 from langchain_groq import ChatGroq
 
 llamaChatModel = ChatGroq(
-    model="llama3-70b-8192"
+    model="llama3-8b-8192"
 )
 
 mistralChatModel = ChatGroq(
